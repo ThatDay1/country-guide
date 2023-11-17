@@ -11,6 +11,7 @@
     --link-water: #ccdadd;
     --dark-grey: #333;
     --light-white: #efefef;
+    --near-red: #ff465a;
 }
 
 body {
@@ -63,4 +64,50 @@ body {
 
 .search-container button:hover {
     background-color: var(--light-navy-blue);
+}
+
+.container .data-container {
+    margin-bottom: 1rem;
+}
+
+.container .flag-img {
+    display: block;
+    width: 40%;
+    min-width: 7.5rem;
+    margin: 1.8rem auto 1.2rem;
+    box-shadow: 8px 10px 15px rgba(0, 0, 0, 0.1);
+}
+
+.container h2 {
+    font-weight: 600;
+    color: var(--dark-grey);
+    text-align: center;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 2rem;
+    margin-bottom: 1.8rem;
+}
+
+.data-container h4 {
+    margin-bottom: 1rem;
+    letter-spacing: 0.3px;
+    color: var(--dark-grey);
+    font-size: 2rem;
+    font-weight: 700;
+    display: inline;
+}
+
+.container span {
+    font-weight: 400;
+    color: var(--dark-grey);
+    font-size: 1.7rem;
+    margin-left: 1rem;
+}
+
+.container h3 {
+    color: var(--near-red);
+    text-align: center;
+    margin-top: 1rem;
+    font-weight: 500;
+    font-size: 1.4rem;
 }
